@@ -113,3 +113,7 @@
 [17Apr2025 21:08:14.018] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56255] logged in with entity id 3012 at (-273.0199898012937, 86.0, 11.918239368491141)
 [17Apr2025 21:08:14.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
 [17Apr2025 21:09:19.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
+[17Apr2025 21:13:12.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
+[17Apr2025 21:13:58.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
+[17Apr2025 21:19:42.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
+[17Apr2025 21:20:36.466] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/6283, l='ServerLevel[world]', x=-157.50, y=66.00, z=-198.50] died: Plus suffocated in a wall
