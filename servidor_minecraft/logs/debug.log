@@ -3216,3 +3216,36 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [17Apr2025 22:02:45.780] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [17Apr2025 22:02:45.785] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [17Apr2025 22:02:57.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow
+[17Apr2025 22:04:38.855] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/23967, l='ServerLevel[world]', x=-143.50, y=78.00, z=-12.50] died: Plus was slain by colap
+[17Apr2025 22:07:14.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Iron Golem
+[17Apr2025 22:07:45.782] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Apr2025 22:07:45.787] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Apr2025 22:09:02.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap has made the advancement [Acquire Hardware]
+[17Apr2025 22:09:51.649] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25512, l='ServerLevel[world]', x=-143.50, y=76.00, z=277.50] died: Plus was slain by colap
+[17Apr2025 22:10:00.098] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25513, l='ServerLevel[world]', x=-127.85, y=78.00, z=271.96] died: Plus was slain by colap
+[17Apr2025 22:10:31.238] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25779, l='ServerLevel[world]', x=-159.46, y=68.00, z=329.95] died: Plus was slain by colap
+[17Apr2025 22:10:37.454] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25778, l='ServerLevel[world]', x=-164.76, y=64.00, z=342.50] died: Plus was slain by colap
+[17Apr2025 22:11:03.720] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26188, l='ServerLevel[world]', x=-221.50, y=67.00, z=279.50] died: Plus suffocated in a wall
+[17Apr2025 22:12:22.635] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26409, l='ServerLevel[world]', x=-156.53, y=63.00, z=362.25] died: Plus was slain by colap
+[17Apr2025 22:12:27.206] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26408, l='ServerLevel[world]', x=-147.56, y=63.00, z=369.56] died: Plus was slain by colap
+[17Apr2025 22:12:45.780] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Apr2025 22:12:45.784] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Apr2025 22:13:13.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26607, l='ServerLevel[world]', x=-186.65, y=64.00, z=408.24] died: Plus was slain by colap
+[17Apr2025 22:13:13.716] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26673, l='ServerLevel[world]', x=-241.50, y=64.00, z=477.50] died: Plus suffocated in a wall
+[17Apr2025 22:13:34.099] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26608, l='ServerLevel[world]', x=-231.52, y=72.00, z=402.63] died: Plus was slain by colap
+[17Apr2025 22:14:08.639] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26786, l='ServerLevel[world]', x=-290.40, y=68.42, z=471.30] died: Plus was slain by colap
+[17Apr2025 22:14:11.343] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26787, l='ServerLevel[world]', x=-289.37, y=67.00, z=473.38] died: Plus was slain by colap
+[17Apr2025 22:14:42.084] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27212, l='ServerLevel[world]', x=-356.54, y=63.00, z=525.52] died: Plus was slain by colap
+[17Apr2025 22:14:51.766] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27105, l='ServerLevel[world]', x=-342.50, y=64.00, z=585.50] died: Plus was shot by colap
+[17Apr2025 22:15:11.201] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27428, l='ServerLevel[world]', x=-377.36, y=65.00, z=662.36] died: Plus was slain by colap
+[17Apr2025 22:15:15.435] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27427, l='ServerLevel[world]', x=-384.16, y=65.00, z=667.16] died: Plus was slain by colap
+[17Apr2025 22:15:22.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27726, l='ServerLevel[world]', x=-381.95, y=65.00, z=693.06] died: Plus was slain by colap
+[17Apr2025 22:16:09.948] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27904, l='ServerLevel[world]', x=-218.98, y=68.00, z=765.98] died: Plus was slain by colap
+[17Apr2025 22:17:28.240] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/28259, l='ServerLevel[world]', x=-72.63, y=69.00, z=814.63] died: Plus was slain by colap
+[17Apr2025 22:17:45.777] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Apr2025 22:17:45.782] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[17Apr2025 22:18:25.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Rogue Shinigami
+[17Apr2025 22:18:32.576] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: colap lost connection: Disconnected
+[17Apr2025 22:18:32.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap left the game
+[17Apr2025 22:22:45.767] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[17Apr2025 22:22:45.772] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
