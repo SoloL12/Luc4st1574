@@ -100,3 +100,16 @@
 [17Apr2025 21:00:16.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 was slain by Husk
 [17Apr2025 21:01:33.213] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
 [17Apr2025 21:01:33.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
+[17Apr2025 21:03:06.765] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56211] logged in with entity id 1801 at (-98.44040047847368, 83.0, 0.4950110318442509)
+[17Apr2025 21:03:06.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
+[17Apr2025 21:04:12.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 was slain by Hollow Fire
+[17Apr2025 21:06:18.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
+[17Apr2025 21:07:14.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 has made the advancement [Acquire Hardware]
+[17Apr2025 21:07:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
+[17Apr2025 21:07:38.064] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/2902, l='ServerLevel[world]', x=-156.50, y=77.00, z=47.50] died: Plus suffocated in a wall
+[17Apr2025 21:07:51.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
+[17Apr2025 21:08:10.067] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
+[17Apr2025 21:08:10.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
+[17Apr2025 21:08:14.018] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56255] logged in with entity id 3012 at (-273.0199898012937, 86.0, 11.918239368491141)
+[17Apr2025 21:08:14.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
+[17Apr2025 21:09:19.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
