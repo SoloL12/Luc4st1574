@@ -7,8 +7,20 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:birch_forest": "2025-04-17 21:23:32 +0000",
+      "minecraft:bamboo_jungle": "2025-04-17 21:22:21 +0000",
+      "minecraft:wooded_badlands": "2025-04-17 21:22:17 +0000",
       "minecraft:badlands": "2025-04-17 21:07:42 +0000",
-      "minecraft:desert": "2025-04-17 18:03:03 +0000"
+      "minecraft:dark_forest": "2025-04-17 21:23:27 +0000",
+      "minecraft:sparse_jungle": "2025-04-17 21:22:20 +0000",
+      "minecraft:river": "2025-04-17 21:21:37 +0000",
+      "minecraft:stony_shore": "2025-04-17 21:22:14 +0000",
+      "minecraft:forest": "2025-04-17 21:23:37 +0000",
+      "minecraft:desert": "2025-04-17 18:03:03 +0000",
+      "minecraft:jungle": "2025-04-17 21:22:32 +0000",
+      "minecraft:ocean": "2025-04-17 21:23:15 +0000",
+      "minecraft:warm_ocean": "2025-04-17 21:21:45 +0000",
+      "minecraft:meadow": "2025-04-17 21:23:48 +0000"
     },
     "done": false
   },
@@ -38,6 +50,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-04-17 21:18:09 +0000",
+      "minecraft:spider": "2025-04-17 21:19:19 +0000",
       "minecraft:husk": "2025-04-17 20:59:56 +0000",
       "minecraft:zombie": "2025-04-17 21:01:07 +0000"
     },
@@ -385,12 +399,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/green_dye": {
-    "criteria": {
-      "has_cactus": "2025-04-17 21:10:59 +0000"
-    },
-    "done": true
-  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2025-04-17 21:09:23 +0000"
@@ -400,6 +408,114 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2025-04-17 21:09:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2025-04-17 21:10:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-04-17 21:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-04-17 21:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-04-17 21:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-04-17 21:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-04-17 21:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-04-17 21:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-04-17 21:19:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-04-17 21:22:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-04-17 21:24:49 +0000"
     },
     "done": true
   },
