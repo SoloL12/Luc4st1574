@@ -1,216 +1,71 @@
-[17Apr2025 20:52:15.475] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[17Apr2025 20:52:15.479] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.8.0-1021-azure
-[17Apr2025 20:52:15.763] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[17Apr2025 20:52:15.870] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Luc4st1574/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[17Apr2025 20:52:16.251] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Luc4st1574/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[17Apr2025 20:52:16.253] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Luc4st1574/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Apr2025 20:52:16.254] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Luc4st1574/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Apr2025 20:52:16.256] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Luc4st1574/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[17Apr2025 20:52:16.522] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[17Apr2025 20:52:18.674] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[17Apr2025 20:52:18.685] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[17Apr2025 20:52:20.216] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.2.0).
-[17Apr2025 20:52:27.427] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[17Apr2025 20:52:27.430] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[17Apr2025 20:52:29.690] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[17Apr2025 20:52:30.353] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[17Apr2025 20:52:30.699] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[17Apr2025 20:52:31.655] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Luc4st1574/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23113!/assets/.mcassetsroot' uses unexpected schema
-[17Apr2025 20:52:31.656] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Luc4st1574/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23113!/data/.mcassetsroot' uses unexpected schema
-[17Apr2025 20:52:33.828] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[17Apr2025 20:52:33.972] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[17Apr2025 20:52:34.564] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[17Apr2025 20:52:34.564] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[17Apr2025 20:52:34.565] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[17Apr2025 20:52:34.565] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[17Apr2025 20:52:34.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[17Apr2025 20:52:34.750] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[17Apr2025 20:52:34.844] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17Apr2025 20:52:34.844] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[17Apr2025 20:52:34.844] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17Apr2025 20:52:34.845] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[17Apr2025 20:52:34.912] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[17Apr2025 20:52:35.438] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): literal{Server is still starting! Please wait before reconnecting.}
-[17Apr2025 20:52:39.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[17Apr2025 20:52:43.535] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.586] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.615] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.620] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.658] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.675] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.683] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.694] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.725] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:43.735] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:44.017] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:44.510] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[17Apr2025 20:52:45.011] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
-[17Apr2025 20:52:45.510] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 77%
-[17Apr2025 20:52:45.718] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6708 ms
-[17Apr2025 20:52:45.718] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.854s)! For help, type "help"
-[17Apr2025 20:52:45.741] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[17Apr2025 20:52:45.810] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 44243 bytes (in 5 string chunks with the size of 10000)
-[17Apr2025 20:52:51.339] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55863] logged in with entity id 132 at (-89.5, 78.0, -20.5)
-[17Apr2025 20:52:51.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:53:06.065] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:53:06.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:53:31.366] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55879] logged in with entity id 249 at (-78.5, 75.0, -23.5)
-[17Apr2025 20:53:31.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:53:48.614] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:53:48.614] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:54:01.824] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55888] logged in with entity id 337 at (-83.5, 76.0, -21.5)
-[17Apr2025 20:54:01.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:54:17.763] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:54:17.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:54:27.716] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55901] logged in with entity id 391 at (-88.5, 81.0, -5.5)
-[17Apr2025 20:54:27.728] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:54:41.064] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:54:41.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:54:52.067] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55917] logged in with entity id 451 at (-84.5, 78.0, -15.5)
-[17Apr2025 20:54:52.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:55:00.815] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:55:00.815] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:55:14.818] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55927] logged in with entity id 503 at (-76.5, 75.0, -20.5)
-[17Apr2025 20:55:14.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:55:40.215] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:55:40.216] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:55:50.818] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55937] logged in with entity id 615 at (-83.5, 77.0, -16.5)
-[17Apr2025 20:55:50.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:56:00.665] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:56:00.666] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:56:13.518] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55965] logged in with entity id 666 at (-81.5, 75.0, -24.5)
-[17Apr2025 20:56:13.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:56:26.465] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:56:26.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:56:43.663] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55976] logged in with entity id 706 at (-71.5, 75.0, -21.5)
-[17Apr2025 20:56:43.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:57:00.165] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:57:00.165] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:57:14.016] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:55985] logged in with entity id 814 at (-80.5, 75.0, -19.5)
-[17Apr2025 20:57:14.026] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:58:50.314] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 20:58:50.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 20:59:05.465] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56013] logged in with entity id 1105 at (-81.5, 80.0, -6.5)
-[17Apr2025 20:59:05.473] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 20:59:56.826] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 has made the advancement [Monster Hunter]
-[17Apr2025 21:00:01.965] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 21:00:01.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:00:11.019] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56028] logged in with entity id 1332 at (-84.60403471326526, 81.0, 4.319943188857408)
-[17Apr2025 21:00:11.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 21:00:16.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 was slain by Husk
-[17Apr2025 21:01:33.213] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 21:01:33.214] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:03:06.765] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56211] logged in with entity id 1801 at (-98.44040047847368, 83.0, 0.4950110318442509)
-[17Apr2025 21:03:06.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 21:04:12.967] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 was slain by Hollow Fire
-[17Apr2025 21:06:18.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
-[17Apr2025 21:07:14.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 has made the advancement [Acquire Hardware]
-[17Apr2025 21:07:30.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
-[17Apr2025 21:07:38.064] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/2902, l='ServerLevel[world]', x=-156.50, y=77.00, z=47.50] died: Plus suffocated in a wall
-[17Apr2025 21:07:51.788] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
-[17Apr2025 21:08:10.067] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 21:08:10.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:08:14.018] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56255] logged in with entity id 3012 at (-273.0199898012937, 86.0, 11.918239368491141)
-[17Apr2025 21:08:14.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 21:09:19.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
-[17Apr2025 21:13:12.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
-[17Apr2025 21:13:58.582] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
-[17Apr2025 21:19:42.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Creative Mode]
-[17Apr2025 21:20:36.466] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/6283, l='ServerLevel[world]', x=-157.50, y=66.00, z=-198.50] died: Plus suffocated in a wall
-[17Apr2025 21:23:36.875] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/11487, l='ServerLevel[world]', x=-1913.50, y=74.00, z=-1003.50] died: Plus suffocated in a wall
-[17Apr2025 21:23:52.737] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7912474b[id=<null>,name=colap,properties={},legacy=false] (/100.122.45.86:63835) lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 0/2 (ServerboundChangeDifficultyPacket) was larger than I expected, found 17 bytes extra whilst reading packet 2
-[17Apr2025 21:24:04.922] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: colap[/100.122.45.86:63837] logged in with entity id 12153 at (-86.5, 78.0, -17.5)
-[17Apr2025 21:24:04.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap joined the game
-[17Apr2025 21:24:18.688] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Set own game mode to Survival Mode]
-[17Apr2025 21:24:30.720] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 21:24:30.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:24:34.670] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56423] logged in with entity id 12451 at (-2169.052447248579, 112.0, -1070.7709906739397)
-[17Apr2025 21:24:34.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 21:24:58.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Teleported colap to R4FA1337]
-[17Apr2025 21:25:13.417] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/12812, l='ServerLevel[world]', x=-2119.50, y=80.00, z=-1002.50] died: Plus suffocated in a wall
-[17Apr2025 21:26:17.369] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 21:26:17.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:26:22.321] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56439] logged in with entity id 12961 at (-2175.5206639461735, 112.0, -1076.321281538052)
-[17Apr2025 21:26:22.330] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 21:26:56.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/12479, l='ServerLevel[world]', x=-2143.76, y=104.25, z=-1058.18] died: Plus was slain by colap
-[17Apr2025 21:27:22.568] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Timed out
-[17Apr2025 21:27:22.569] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:27:25.368] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1111d18b[id=<null>,name=R4FA1337,properties={},legacy=false] (/100.73.149.61:56454) lost connection: Disconnected
-[17Apr2025 21:27:30.436] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3bce4f65[id=<null>,name=R4FA1337,properties={},legacy=false] (/100.73.149.61:56455) lost connection: Disconnected
-[17Apr2025 21:27:31.466] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/13128, l='ServerLevel[world]', x=-2182.50, y=117.00, z=-1187.50] died: Plus suffocated in a wall
-[17Apr2025 21:27:35.268] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@1a14c28c[id=<null>,name=R4FA1337,properties={},legacy=false] (/100.73.149.61:56456) lost connection: Disconnected
-[17Apr2025 21:27:47.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow
-[17Apr2025 21:27:57.315] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6cdbad94[id=<null>,name=R4FA1337,properties={},legacy=false] (/100.73.149.61:56460) lost connection: Disconnected
-[17Apr2025 21:28:09.065] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@2a1049c6[id=<null>,name=R4FA1337,properties={},legacy=false] (/100.73.149.61:56464) lost connection: Disconnected
-[17Apr2025 21:28:11.366] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@116c75c0[id=<null>,name=R4FA1337,properties={},legacy=false] (/100.73.149.61:56465) lost connection: Internal Exception: io.netty.handler.codec.EncoderException: java.io.IOException: Can't serialize unregistered packet
-[17Apr2025 21:28:12.564] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/13425, l='ServerLevel[world]', x=-180.50, y=67.00, z=72.50] died: Plus suffocated in a wall
-[17Apr2025 21:29:23.019] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56606] logged in with entity id 13704 at (-80.5, 73.0, -23.5)
-[17Apr2025 21:29:23.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 21:29:55.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Teleported R4FA1337 to colap]
-[17Apr2025 21:30:35.116] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 21:30:35.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:30:39.470] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: R4FA1337[/100.73.149.61:56634] logged in with entity id 13996 at (-244.8802695091319, 63.0, 27.69999998807907)
-[17Apr2025 21:30:39.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 joined the game
-[17Apr2025 21:32:12.441] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [R4FA1337: Teleported R4FA1337 to colap]
-[17Apr2025 21:32:15.166] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/14077, l='ServerLevel[world]', x=-201.54, y=83.53, z=33.37] died: Plus was shot by colap
-[17Apr2025 21:32:16.113] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/14221, l='ServerLevel[world]', x=-317.50, y=71.00, z=-25.50] died: Plus suffocated in a wall
-[17Apr2025 21:32:48.115] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: R4FA1337 lost connection: Disconnected
-[17Apr2025 21:32:48.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: R4FA1337 left the game
-[17Apr2025 21:34:09.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Isshin Kurosaki 
-[17Apr2025 21:36:40.775] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/14682, l='ServerLevel[world]', x=-150.48, y=78.00, z=-74.47] died: Plus was slain by colap
-[17Apr2025 21:37:08.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap has made the advancement [Monster Hunter]
-[17Apr2025 21:38:03.116] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/15240, l='ServerLevel[world]', x=-210.44, y=85.00, z=-26.56] died: Plus was slain by colap
-[17Apr2025 21:38:19.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Rogue Shinigami
-[17Apr2025 21:38:57.416] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Shinigami 
-[17Apr2025 21:39:29.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Shinigami 
-[17Apr2025 21:41:15.114] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/16545, l='ServerLevel[world]', x=-201.50, y=76.00, z=-60.50] died: Plus suffocated in a wall
-[17Apr2025 21:42:02.528] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/16580, l='ServerLevel[world]', x=-242.61, y=84.00, z=-21.49] died: Plus was slain by colap
-[17Apr2025 21:43:11.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow Fire
-[17Apr2025 21:45:15.486] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/17725, l='ServerLevel[world]', x=-325.24, y=70.00, z=62.59] died: Plus was slain by colap
-[17Apr2025 21:49:13.951] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/19267, l='ServerLevel[world]', x=-744.50, y=71.00, z=119.50] died: Plus was slain by colap
-[17Apr2025 21:49:32.668] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/19420, l='ServerLevel[world]', x=-780.50, y=70.00, z=183.50] died: Plus suffocated in a wall
-[17Apr2025 21:50:55.068] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/19585, l='ServerLevel[world]', x=-871.32, y=64.00, z=246.38] died: Plus was slain by colap
-[17Apr2025 21:51:13.541] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/19832, l='ServerLevel[world]', x=-881.50, y=64.00, z=305.13] died: Plus was slain by colap
-[17Apr2025 21:51:16.932] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/19831, l='ServerLevel[world]', x=-886.57, y=64.00, z=303.58] died: Plus was slain by colap
-[17Apr2025 21:51:32.374] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/20052, l='ServerLevel[world]', x=-900.47, y=62.45, z=320.76] died: Plus was slain by colap
-[17Apr2025 21:52:09.723] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/20295, l='ServerLevel[world]', x=-838.35, y=63.00, z=377.35] died: Plus was slain by colap
-[17Apr2025 21:53:09.807] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/20423, l='ServerLevel[world]', x=-846.49, y=64.00, z=435.85] died: Plus was slain by colap
-[17Apr2025 21:53:12.854] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/20424, l='ServerLevel[world]', x=-846.82, y=64.00, z=439.44] died: Plus was slain by colap
-[17Apr2025 21:53:42.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/20656, l='ServerLevel[world]', x=-890.41, y=63.00, z=411.41] died: Plus was slain by colap
-[17Apr2025 21:53:47.983] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/20657, l='ServerLevel[world]', x=-897.15, y=63.00, z=395.94] died: Plus was slain by colap
-[17Apr2025 21:54:00.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap has made the advancement [Diamonds!]
-[17Apr2025 21:56:03.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow
-[17Apr2025 21:56:27.409] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/21370, l='ServerLevel[world]', x=-126.81, y=72.00, z=-50.37] died: Plus was slain by colap
-[17Apr2025 21:56:28.407] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/21369, l='ServerLevel[world]', x=-128.50, y=72.00, z=-52.50] died: Plus was slain by colap
-[17Apr2025 21:57:04.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Shinigami 
-[17Apr2025 21:59:52.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow
-[17Apr2025 22:00:41.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow
-[17Apr2025 22:00:48.463] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/22799, l='ServerLevel[world]', x=-124.50, y=69.00, z=-128.50] died: Plus suffocated in a wall
-[17Apr2025 22:01:33.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow
-[17Apr2025 22:02:29.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/23188, l='ServerLevel[world]', x=-45.43, y=70.00, z=73.02] died: Plus was slain by colap
-[17Apr2025 22:02:57.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Hollow
-[17Apr2025 22:04:38.855] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/23967, l='ServerLevel[world]', x=-143.50, y=78.00, z=-12.50] died: Plus was slain by colap
-[17Apr2025 22:07:14.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Iron Golem
-[17Apr2025 22:09:02.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap has made the advancement [Acquire Hardware]
-[17Apr2025 22:09:51.649] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25512, l='ServerLevel[world]', x=-143.50, y=76.00, z=277.50] died: Plus was slain by colap
-[17Apr2025 22:10:00.098] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25513, l='ServerLevel[world]', x=-127.85, y=78.00, z=271.96] died: Plus was slain by colap
-[17Apr2025 22:10:31.238] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25779, l='ServerLevel[world]', x=-159.46, y=68.00, z=329.95] died: Plus was slain by colap
-[17Apr2025 22:10:37.454] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/25778, l='ServerLevel[world]', x=-164.76, y=64.00, z=342.50] died: Plus was slain by colap
-[17Apr2025 22:11:03.720] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26188, l='ServerLevel[world]', x=-221.50, y=67.00, z=279.50] died: Plus suffocated in a wall
-[17Apr2025 22:12:22.635] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26409, l='ServerLevel[world]', x=-156.53, y=63.00, z=362.25] died: Plus was slain by colap
-[17Apr2025 22:12:27.206] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26408, l='ServerLevel[world]', x=-147.56, y=63.00, z=369.56] died: Plus was slain by colap
-[17Apr2025 22:13:13.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26607, l='ServerLevel[world]', x=-186.65, y=64.00, z=408.24] died: Plus was slain by colap
-[17Apr2025 22:13:13.716] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26673, l='ServerLevel[world]', x=-241.50, y=64.00, z=477.50] died: Plus suffocated in a wall
-[17Apr2025 22:13:34.099] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26608, l='ServerLevel[world]', x=-231.52, y=72.00, z=402.63] died: Plus was slain by colap
-[17Apr2025 22:14:08.639] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26786, l='ServerLevel[world]', x=-290.40, y=68.42, z=471.30] died: Plus was slain by colap
-[17Apr2025 22:14:11.343] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/26787, l='ServerLevel[world]', x=-289.37, y=67.00, z=473.38] died: Plus was slain by colap
-[17Apr2025 22:14:42.084] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27212, l='ServerLevel[world]', x=-356.54, y=63.00, z=525.52] died: Plus was slain by colap
-[17Apr2025 22:14:51.766] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27105, l='ServerLevel[world]', x=-342.50, y=64.00, z=585.50] died: Plus was shot by colap
-[17Apr2025 22:15:11.201] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27428, l='ServerLevel[world]', x=-377.36, y=65.00, z=662.36] died: Plus was slain by colap
-[17Apr2025 22:15:15.435] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27427, l='ServerLevel[world]', x=-384.16, y=65.00, z=667.16] died: Plus was slain by colap
-[17Apr2025 22:15:22.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27726, l='ServerLevel[world]', x=-381.95, y=65.00, z=693.06] died: Plus was slain by colap
-[17Apr2025 22:16:09.948] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/27904, l='ServerLevel[world]', x=-218.98, y=68.00, z=765.98] died: Plus was slain by colap
-[17Apr2025 22:17:28.240] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity PlusEntity['Plus'/28259, l='ServerLevel[world]', x=-72.63, y=69.00, z=814.63] died: Plus was slain by colap
-[17Apr2025 22:18:25.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap was slain by Rogue Shinigami
-[17Apr2025 22:18:32.576] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: colap lost connection: Disconnected
-[17Apr2025 22:18:32.577] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: colap left the game
+[17:51:51] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.8.0-1021-azure (amd64)
+[17:51:51] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) for Minecraft 1.21.3
+[17:51:51] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[17:51:51] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/SkinsRestorer.jar'...
+[17:51:54] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/SkinsRestorer.jar' in 2197ms.
+[17:51:54] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[17:51:54] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - SkinsRestorer (15.6.2)
+[17:51:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[17:52:00] [ServerMain/INFO]: Loaded 1337 recipes
+[17:52:00] [ServerMain/INFO]: Loaded 1448 advancements
+[17:52:00] [Server thread/INFO]: Starting minecraft server version 1.21.3
+[17:52:00] [Server thread/INFO]: Loading properties
+[17:52:00] [Server thread/INFO]: This server is running Paper version 1.21.3-63-master@4190ee7 (2024-11-25T18:59:19Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[17:52:01] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[17:52:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:52:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:52:02] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[17:52:02] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[17:52:02] [Server thread/INFO]: Default game type: SURVIVAL
+[17:52:02] [Server thread/INFO]: Generating keypair
+[17:52:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:52:02] [Server thread/INFO]: Using epoll channel type
+[17:52:02] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[17:52:02] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[17:52:02] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.6.2
+[17:52:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:52:02] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.6.2
+[17:52:03] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[17:52:04] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.3.
+[17:52:04] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[17:52:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[17:52:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[17:52:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[17:52:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[17:52:04] [Server thread/INFO]: Preparing level "world"
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.6.2
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 7bda5de
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[17:52:05] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[17:52:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[17:52:05] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[17:52:06] [Paper Common Worker #0/INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 381.5ms
+[17:52:06] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:06] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:06] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:07] [Server thread/INFO]: Time elapsed: 1500 ms
+[17:52:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[17:52:07] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:07] [Server thread/INFO]: Time elapsed: 241 ms
+[17:52:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[17:52:07] [Server thread/INFO]: Preparing spawn area: 0%
+[17:52:07] [Server thread/INFO]: Time elapsed: 162 ms
+[17:52:07] [Server thread/INFO]: [spark] Starting background profiler...
+[17:52:07] [Server thread/INFO]: Done preparing level "world" (2.761s)
+[17:52:07] [Server thread/INFO]: Running delayed init tasks
+[17:52:07] [Server thread/INFO]: Done (17.522s)! For help, type "help"
+[17:52:10] [User Authenticator #0/INFO]: UUID of player R4FA1337 is 3e6edd23-b56b-379b-b68c-899ad2cdec29
+[17:52:11] [Server thread/INFO]: R4FA1337 joined the game
+[17:52:11] [Server thread/INFO]: R4FA1337[/100.73.149.61:64875] logged in with entity id 155 at ([world]29.593678421667736, 74.0, 6.248265923089302)
+[17:53:39] [Server thread/INFO]: R4FA1337 has made the advancement [Stone Age]
+[17:54:09] [Server thread/INFO]: R4FA1337 has made the advancement [Getting an Upgrade]
